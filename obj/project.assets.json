@@ -467,11 +467,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\naazu\\source\\repos\\ParkingApp\\ParkingApp.csproj",
+      "projectUniqueName": "C:\\Users\\naazu\\source\\repos\\My-first-parking-app\\ParkingApp.csproj",
       "projectName": "ParkingApp",
-      "projectPath": "C:\\Users\\naazu\\source\\repos\\ParkingApp\\ParkingApp.csproj",
+      "projectPath": "C:\\Users\\naazu\\source\\repos\\My-first-parking-app\\ParkingApp.csproj",
       "packagesPath": "C:\\Users\\naazu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\naazu\\source\\repos\\ParkingApp\\obj\\",
+      "outputPath": "C:\\Users\\naazu\\source\\repos\\My-first-parking-app\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\naazu\\AppData\\Roaming\\NuGet\\NuGet.Config",
