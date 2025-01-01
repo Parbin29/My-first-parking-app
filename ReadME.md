@@ -16,6 +16,11 @@ cd my-first-parking-app
 dotnet run
 ```
 
+### Create a .gitignore file
+```
+dotnet new gitignore
+```
+
 ### Then access the api endpoint using any client eg., Chrome
 ```
 http://localhost:5039/weatherforecast
