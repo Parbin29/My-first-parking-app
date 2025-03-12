@@ -13,7 +13,7 @@ cd my-first-parking-app
 
 ### To run the project
 ```
-dotnet run
+dotnet watch run
 ```
 
 ### Create a .gitignore file

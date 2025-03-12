@@ -1,6 +1,41 @@
 @ParkingApp_HostAddress = http://localhost:5038
 
-GET {{ParkingApp_HostAddress}}/weatherforecast/
-Accept: application/json
+### Register a new vehicle
+POST {{ParkingApp_HostAddress}}/api/Parking/register
+Content-Type: application/json
+
+{
+  "id": 2,
+  "name": "Nazima",
+  "email": "nazima@gmail.com",
+  "cars": [
+    {
+      "licensePlate": "ABC123",
+      "currentPeriod": {
+        "startTime": "2025-03-12T07:34:42.155Z",
+        "endTime": "2025-03-13T07:34:42.155Z",
+        "cost": 100
+      }
+    }
+  ],
+  "accountBalance": 2000
+}
+
+### Begin parking
+POST {{ParkingApp_HostAddress}}/api/Parking/begin
+Content-Type: application/json
+
+"DEF123"
+
+### End parking
+POST {{ParkingApp_HostAddress}}/api/Parking/end
+Content-Type: application/json
+
+"DEF123"
+
+###
+GET {{ParkingApp_HostAddress}}/api/Parking/cost/2
+Content-Type: application/json
+
 
 ###
